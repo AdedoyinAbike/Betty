@@ -3,9 +3,9 @@
 /**
  * main - Entry point of the program
  *
- *Decription: This is the main functon that print the siz of intrinsic data
+ * Decription: This is the main functon that print the siz of intrinsic data
  *
- *Return - Always 0 
+ * Return - Always 0 (success) 
  */
 int main(void)
 {
@@ -15,6 +15,3 @@ int main(void)
   printf("Size of a long long int: %ld byte(s)\n", sizeof(long long));
   printf("Size of a float: %ld byte(s)\n", sizeof(float));
   return (0);
-}
- 
-

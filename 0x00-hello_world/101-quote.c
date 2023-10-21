@@ -4,9 +4,9 @@
 #include <string.h>
 
 /**
- *main - Entry point of a program
+ * main - Entry point of a program
  *
- *Return - 1(indicates an error)
+ * Return - 1(indicates an error)
  */
 int main(void)
 {

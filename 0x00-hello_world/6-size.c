@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ *main - Entry point of the program
  *
- * Decription: This is the main functon that print the siz of intrinsic data
+ *Decription: This is the main functon that print the siz of intrinsic data
  *
- * Return - Always 0 (success) 
+ *Return - Always 0 (success) 
  */
 int main(void)
 {

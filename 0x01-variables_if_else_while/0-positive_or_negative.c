@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main - Entry point for all program
+ *main - Entry point for all program
  *
- * Return: Always 0(success) 
+ *Return: Always 0(success) 
  */
 int main(void)
 {
@@ -14,19 +14,19 @@ int main(void)
   srand(time(0));
   n = rand() - RAND_MAX / 2;
   /** 
-   * Check if n is positive, negative, or zero 
+   *Check if n is positive, negative, or zero 
    */
   if (n > 0)
     {
-      printf("The number %d is positive\n", n);
+      printf("%d is positive\n", n);
     }
   else if (n == 0)
     {
-      printf("The number %d is zero\n", n);
+      printf("%d is zero\n", n);
     }
   else
     {
-      printf("The number %d is negative\n", n);
+      printf("%d is negative\n", n);
     }
   return (0);
 }

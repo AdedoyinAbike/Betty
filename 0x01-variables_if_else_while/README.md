@@ -1,1 +1,1 @@
--m c program
+c program
